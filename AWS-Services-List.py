@@ -1,3 +1,5 @@
+#   If you are here from LinkedIn be sure to follow along as I continue this journey with Python!
+
 #   Today we will be going over how to create, edit, and print a list.
 #   For this example we will be using AWS services as our topic!
 
@@ -10,7 +12,7 @@
 #5. Remove two specific services from the list by name or by index.
 #6. Print the new list and the new length of the list.
 
-#   To do this lets start by adding an empty Services Variable.
+#   To do this lets start by adding an empty Services list.
 Services = []
 
 #   Now lets add in our services
@@ -22,8 +24,12 @@ ListLength = len(Services)
 print(Services)
 print(Length, ListLength)
 
-remove Services['CloudTrail', 'Cloud9', 'CloudFormation']
+#   Now that we have our list, lets remove two items from the list and run it again.
+Services.remove('CloudTrail')
+Services.remove('Cloud9')
 Length = "Length = "
 ListLength = len(Services)
 print(Services)
 print(Length, ListLength)
+
+#   There we go, task complete! Now we can make a list, add/remove items from it, and print it!
