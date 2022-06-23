@@ -1,12 +1,13 @@
-#just playing around with variables
-#this will be a robot order taker
+#this robot will assist you in taking your order
 
 print("Hello, welcome to Lotus!")
 
+#this is just so spacing shows up nice when running the program
 print()
 
 name = input("What is your name?\n\n")
 
+#this is just so spacing shows up nice when running the program
 print()
 
 print("Nice to meet you " + name + ", thanks for coming in today.\n")
@@ -19,16 +20,14 @@ order = input("What would you like to order?\n\n")
 
 cost = 15.75
 
+#this is just so spacing shows up nice when running the program
 print()
 
 quantity = input("How many would you like?\n\n")
 
+#this is just so spacing shows up nice when running the program
 print()
 
 total = (cost * int(quantity))
 
 print("Thank you, Your total is: $" + str(total) + ", Have a great day!")
-
-#print("Sounds great " + name + ", your price for that will be " + total)
-
-#print("Great! Your " + order + " will be ready shortly!")
