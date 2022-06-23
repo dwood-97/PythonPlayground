@@ -3,6 +3,8 @@
 
 print("Hello, welcome to Lotus!")
 
+print()
+
 name = input("What is your name?\n\n")
 
 print()
