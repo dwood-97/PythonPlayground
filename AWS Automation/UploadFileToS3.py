@@ -4,10 +4,10 @@ import glob
 
 #How to upload a single file
 s3_resource = boto3.client("s3")
-s3_resource.upload_file(
-Filename = "",
-Bucket = "",
-Key = "")
+# s3_resource.upload_file(
+# Filename = "",
+# Bucket = "",
+# Key = "")
 
     
 #For multi-file uploads
@@ -20,7 +20,7 @@ for file in files:
     s3_resource.upload_file(
     Filename =  file,
     Bucket = "dylanboto3bucket",
-    Key = file.split("/")[-2]#[]<----- First run code to find position of file you want to upload then run with correct positioning in the brackets
+    Key = file.split("/")#[]<----- First run code to find position of file you want to upload then run with correct positioning in the brackets
     )
     
 print(cwd)
