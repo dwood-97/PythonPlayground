@@ -1,0 +1,13 @@
+Creating New Branch
+
+CD into main directory
+
+git push --set-upstream origin "add branch name here"
+
+Enter GitHub Username and Personal Access Token
+
+git config --global credential.helper store
+
+git config --global user.email "you@example.com"
+
+git config --global user.name "user.nameexample"
