@@ -21,3 +21,4 @@ x=client.describe_vpcs(Filters=[
           },
       ])
 print(x)
+client.delete_
