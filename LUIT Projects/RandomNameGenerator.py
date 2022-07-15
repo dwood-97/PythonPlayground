@@ -3,7 +3,9 @@ import random
 
 cust_name = input("Hello! Thank you for using our EC2 instance name generator.\nWhat is your name?\n\n")
 depts = ["accounting", "marketing", "finops"]
+
 print("\nNice to meet you, " + cust_name.capitalize() + "!")
+
 dept_name = input("What department do you work for?\n\n").lower()
 
 if dept_name not in depts:

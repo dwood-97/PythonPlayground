@@ -11,3 +11,7 @@ git config --global credential.helper store
 git config --global user.email "you@example.com"
 
 git config --global user.name "user.nameexample"
+
+pip3 install boto3
+
+pip3 install awscli
